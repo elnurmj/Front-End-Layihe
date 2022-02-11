@@ -1,0 +1,40 @@
+.covid{
+    background-color: #233a95;
+    position: relative;
+    text-align: center;
+    height: 37px; 
+    color: white;
+    font-size: 12px;
+    padding-top: 8px;
+}
+.about ul{
+    display: flex;
+    list-style: none;
+}
+
+.about li{
+    margin-left: 20px;
+    font-size: 13px;
+    cursor: pointer;
+}
+.secure{
+    font-size: 13px;
+    text-align: center;
+}
+
+.secure .anc{
+    color: gray;
+    font-size: 17px;
+}
+.language span{
+    font-size: 13px;
+}
+.language a{
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+    margin-left: 3px;
+}
+
+
+

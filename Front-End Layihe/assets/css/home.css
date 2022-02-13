@@ -1,3 +1,4 @@
+
 .covid{
     background-color: #233a95;
     position: relative;
@@ -7,34 +8,107 @@
     font-size: 12px;
     padding-top: 8px;
 }
+.head{
+    height: 80px;
+}
 .about ul{
     display: flex;
     list-style: none;
 }
 
 .about li{
+    color: gray;
     margin-left: 20px;
     font-size: 13px;
     cursor: pointer;
 }
 .secure{
-    font-size: 13px;
+    padding-bottom: 18px;
+    padding-left: 100px;
     text-align: center;
 }
-
+.secure span{
+    color: gray;
+    font-size: 13px;   
+}
 .secure .anc{
     color: gray;
     font-size: 17px;
 }
-.language span{
+.help{
+    text-align: center;
+    padding-bottom: 18px;    
+}
+.help span{
+    color: gray;
+    padding-left: 10px;
+    border-left: 1px solid #edeef5;
     font-size: 13px;
 }
-.language a{
+.help a{
     color: #007bff;
     text-decoration: none;
     background-color: transparent;
     margin-left: 3px;
 }
+.space{
+    border-left: 1px solid #edeef5;
+    padding-left: 10px;
+}
+ul{
+    padding: 0;
+    list-style: none;
+    }
+ul li{
+    align-items: center;
+    transition: all 0.3s; 
+    display: inline-block;
+    position: relative;
+    line-height: 21px;
+    text-align: center;
+}
+ul li a{
+    display: block;
+    color: gray;
+    font-size: 15px;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+ul li a:hover{
+    color: #2bbef9; 
+}
+ul li ul.dropdown{
+    padding-top: 15px;
+    min-width: 80px;
+    min-height: 100px; 
+    background-color: whitesmoke;
+    display: none;
+    position: absolute;
+    z-index: 999;
+    left: 0;
+}
+ul li:hover ul.dropdown{
+    background-color: #fafafa;
+    color:#2bbef9;
+    display: block;	
+}
+ul li ul.dropdown li{
+    display: block;
+}
+.site{
+    text-decoration: none;
+}
+.site .logo-img{
+    width: 40%;
+}
+.site .descp{
+    display: block;
+    color: gray;
+    margin-top: 2px;
+    font-size: 12px;
+    opacity: .5;
+}
+
 
 
 

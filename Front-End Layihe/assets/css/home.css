@@ -724,7 +724,7 @@ ul li ul.dropdown li {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   background-color: white;
-  padding-left: 15px;
+  padding-left: 13px;
   padding-top: 8px;
 }
 
@@ -1137,6 +1137,10 @@ ul li ul.dropdown li {
   background-color: #ed174a !important;
 }
 
+.spaces {
+  padding: 0;
+}
+
 .card {
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -1239,7 +1243,7 @@ ul li ul.dropdown li {
 }
 
 .card .btn {
-  margin-left: 70px;
+  display: none;
   opacity: 0;
   background-color: #233a95;
   color: #fff;
@@ -1247,9 +1251,20 @@ ul li ul.dropdown li {
 }
 
 .card:hover .btn {
+  display: block;
   opacity: 1;
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
+  -webkit-transition: all 1.3s;
+  transition: all 1.3s;
+}
+
+.crd:hover {
+  position: absolute;
+  z-index: 1;
+  width: 280px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  -webkit-box-shadow: 0px 1px 1px 2px;
+          box-shadow: 0px 1px 1px 2px;
 }
 
 .ice-cream {
@@ -1393,24 +1408,25 @@ ul li ul.dropdown li {
   opacity: 1;
 }
 
-.owl-carousel .owl-carousel owl-theme owl-loaded owl-drag {
-  position: relative;
+.owl-carousel .owl-carousel.owl-theme.owl-loaded.owl-drag {
+  position: relative !important;
+}
+
+.owl-carousel .btns {
+  background-color: #ffcd00;
+  color: #fff;
+  border-radius: 15px;
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  height: 38px;
+  font-size: 16px;
+  padding: 10px 12px;
+  margin: 24px 0 0;
 }
 
 .owl-carousel .owl-dots {
   display: none;
-}
-
-.owl-carousel .owl-nav {
-  font-size: 17px;
-  color: black;
-  cursor: pointer;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-  background-color: white;
-  position: absolute;
-  top: 250px;
-  left: 50px;
 }
 
 .owl-carousel .owl-nav .owl-prev {
@@ -1419,17 +1435,400 @@ ul li ul.dropdown li {
   position: absolute;
   width: 40px;
   height: 40px;
-  left: 40px;
+  top: 50%;
+  left: -25px;
   border-radius: 50%;
+  background-color: #f0e7e7 !important;
+  color: black !important;
+  opacity: 0.8;
+}
+
+.owl-carousel .owl-nav .owl-prev:hover {
+  opacity: 1;
 }
 
 .owl-carousel .owl-nav .owl-next {
   -webkit-box-shadow: #3e445a;
           box-shadow: #3e445a;
   position: absolute;
-  right: 40px;
+  width: 40px;
+  height: 40px;
+  top: 50%;
+  right: -25px;
+  border-radius: 50%;
+  background-color: #f0e7e7 !important;
+  color: black !important;
+  opacity: 0.8;
+}
+
+.owl-carousel .owl-nav .owl-next:hover {
+  opacity: 1;
+}
+
+.banner {
+  height: 70px;
+  background-color: #fbeacf;
+  border-radius: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.banner a {
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+}
+
+.height {
+  height: 250px;
+}
+
+.natural p {
+  color: #00b853;
+}
+
+.natural img {
+  border-radius: 5px;
+}
+
+.natural button {
+  background-color: #c5c4c4;
+}
+
+.ditch p {
+  color: #00b853;
+}
+
+.ditch img {
+  border-radius: 5px;
+}
+
+.ditch button {
+  background-color: #c5c4c4;
+}
+
+.taste p {
+  color: #00b853;
+}
+
+.taste img {
+  border-radius: 5px;
+}
+
+.taste button {
+  background-color: #c5c4c4;
+}
+
+.width span {
+  color: gray;
+}
+
+.width .cmnt {
+  margin-left: 20px;
+  color: black;
+}
+
+.width .baco {
+  color: black;
+}
+
+.width .by {
+  margin-left: 20px;
+  font-style: italic;
+}
+
+.width h2 {
+  line-height: 13px;
+}
+
+.width h2 a {
+  color: #202435;
+  text-decoration: none;
+  font-size: 17.8px;
+}
+
+.width a {
+  position: relative;
+  font-size: .8125rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #9b9bb4;
+  margin-right: 0.75rem;
+}
+
+.width .image {
+  margin-bottom: 20px;
+  border-radius: 5px;
+  width: 420px;
+  height: 260px;
+}
+
+.background {
+  background-color: #233a95;
+  height: 370px;
+}
+
+.my-text {
+  color: white;
+  margin-top: 70px;
+}
+
+.my-text p {
+  opacity: 0.7;
+  margin: 0;
+}
+
+.my-text .pc {
+  margin-top: 20px;
+}
+
+.my-text .sub {
+  position: relative;
+  background-color: white;
+  width: 470px;
+  height: 62px;
+  border-radius: 5px;
+}
+
+.my-text .sub i {
+  color: gray;
+  margin-left: 10px;
+  opacity: 0.7;
+}
+
+.my-text .sub .email-add {
+  padding-top: 8px;
+  height: 60px;
+  outline: none;
+  border: none;
+}
+
+.my-text .subs {
+  float: right;
+  margin-top: 5px;
+  margin-right: 7px;
+  background-color: #233a95;
+  color: white;
+  border: none;
+  outline: none;
+  height: 53px;
+  width: 100px;
+  border-radius: 5px;
+}
+
+.my-text input::-webkit-input-placeholder {
+  opacity: 0.7;
+}
+
+.my-text input:-ms-input-placeholder {
+  opacity: 0.7;
+}
+
+.my-text input::-ms-input-placeholder {
+  opacity: 0.7;
+}
+
+.my-text input::placeholder {
+  opacity: 0.7;
+}
+
+.coupon img {
+  margin-top: 93px;
+}
+
+.icon-boxes {
+  height: 71px;
+  border-bottom: 1px solid #e4e5ee;
+  background-color: #f7f8fd;
+}
+
+.icon-boxes .blender {
+  border-right: 1px solid #e4e5ee;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.icon-boxes .blender h6 {
+  display: inline;
+  margin-left: 8px;
+}
+
+.icon-boxes .blender i {
+  opacity: 0.7;
+  margin-bottom: 7px;
+}
+
+.all-products {
+  background-color: #f7f8fd;
+}
+
+.all-products h6 {
+  color: #202435;
+  font-weight: bold;
+  margin-bottom: 30px;
+  font-size: 16px;
+}
+
+.all-products p {
+  padding: 0;
+  color: #71778e;
+  font-size: 15px;
+}
+
+.fb-icon {
+  background-color: #ffffff;
+  border-color: #e2e4ec;
+  position: relative;
+  padding-top: 16px;
+}
+
+.fb-icon .fa-brands {
+  position: absolute;
   width: 40px;
   height: 40px;
   border-radius: 50%;
+  border: 1px solid gainsboro;
+  font-size: 19px;
+  color: #3e445a;
+  padding: 9px;
+  padding-left: 13px;
+}
+
+.tw-icon {
+  background-color: #ffffff;
+  border-color: #e2e4ec;
+  position: relative;
+  padding-left: 50px;
+}
+
+.tw-icon .fa-brands {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid gainsboro;
+  font-size: 19px;
+  color: #3e445a;
+  padding: 9px;
+  padding-left: 12px;
+}
+
+.ins-icon {
+  background-color: #ffffff;
+  border-color: #e2e4ec;
+  position: relative;
+  padding-left: 100px;
+}
+
+.ins-icon .fa-brands {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid gainsboro;
+  font-size: 19px;
+  color: #3e445a;
+  padding: 9px;
+  padding-left: 12px;
+}
+
+.phone-icon {
+  background-color: #ffffff;
+  border-color: #e2e4ec;
+  position: relative;
+}
+
+.phone-icon .fa-solid {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid gainsboro;
+  font-size: 19px;
+  color: #3e445a;
+  padding: 9px;
+  padding-left: 13px;
+}
+
+.f-contacts .line {
+  height: 40px;
+  border-bottom: 1px solid #e4e5ee;
+}
+
+.f-contacts h4 {
+  padding-left: 55px;
+  font-weight: bold;
+}
+
+.f-contacts .work {
+  padding-left: 55px;
+  font-size: .6875rem;
+  opacity: .5;
+}
+
+.f-contacts .info .apple-google {
+  padding-left: 17px;
+  padding-top: 20px;
+}
+
+.f-contacts .info .site-app {
+  padding-top: 20px;
+}
+
+.f-contacts .info .site-app span {
+  font-size: .6875rem;
+  opacity: .5;
+}
+
+.f-contacts .info .site-app h6 {
+  font-weight: bold;
+}
+
+.f-contacts .social-media {
+  width: 170px;
+  height: 71px;
+  padding-left: 20px;
+}
+
+.copyright {
+  height: 50px;
+}
+
+.copyright p {
+  font-size: .75rem;
+  margin: 0;
+  letter-spacing: -.1px;
+  line-height: 1.5;
+  color: #9b9bb4;
+  display: inline;
+}
+
+.copyright .p-space {
+  margin-left: 14px;
+}
+
+.copyright img {
+  padding-left: 15px;
+}
+
+.img-text {
+  position: absolute;
+  top: 30%;
+  left: 20%;
 }
 /*# sourceMappingURL=home.css.map */

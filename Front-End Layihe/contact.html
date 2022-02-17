@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login & Register</title>
+    <title>Contact</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
         integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <link rel="stylesheet" href="./assets/css/login-register.css">
+    <link rel="stylesheet" href="./assets/css/contact.css">
 </head>
+
 <body>
     <header>
         <div class="header border-bottom 1px head">
@@ -26,7 +28,9 @@
                         <div class="col-4 about">
                             <ul>
                                 <a href="http://127.0.0.1:5500/Front-End%20Layihe/about.html"><li>About us</li></a>
-                                <li>My account</li>
+                                <a href="http://127.0.0.1:5500/Front-End%20Layihe/login-register.html">
+                                    <li>My account</li>
+                                </a>
                                 <li>Wishlist</li>
                                 <li>Order Tracking</li>
                             </ul>
@@ -324,54 +328,96 @@
                             <button class="dropbtn6"><i class="fa-solid fa-cookie-bite cookie"></i>BAKERY</button>
                             <button class="dropbtn7"><i class="fa-solid fa-mug-hot coffee"></i>BEVERAGES</button>
                             <a href="http://127.0.0.1:5500/Front-End%20Layihe/blog.html"><button class="dropbtn8">BLOG</button></a>
-                            <a href="http://127.0.0.1:5500/Front-End%20Layihe/contact.html"><button class="dropbtn9">CONTACT</button></a>
-                            
+                            <a href="http://127.0.0.1:5500/Front-End%20Layihe/blog.html"><button class="dropbtn9">CONTACT</button></a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </header>
+
     <main>
         <div class="container">
             <div class="row">
-                <div class="home d-flex">
-                    <a href="http://127.0.0.1:5500/Front-End%20Layihe/home.html">HOME</a>
-                    <i class="fa-solid fa-angle-right"></i>
-                <span>MY ACCOUNT</span>
+                <div class="get-in-touch mt-5">
+                    <h1>Get In Touch</h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita quaerat unde quam dolor culpa
+                        veritatis inventore, aut commodi eum veniam vel.</p>
                 </div>
-                <form action="">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-6 mt-5">
-                                <div class="login">
-                                    <h2>LOGIN</h2>
-                                    <label for="email">Username or Email address *</label>
-                                    <input type="text" class="login-p">
-                                    <label for="pass" class="pass">Password *</label>
-                                    <input type="password" class="login-p"> 
-                                    <input type="checkbox" class="remember-me"> 
-                                    <label for="remember-me">Remember me</label>
-                                    <button>Log in</button>
-                                    <a href="">Lost your password?</a>
-                                </div>   
-                            </div>
-                            <div class="col-6 mt-5">
-                                <div class="register">
-                                    <h2>REGISTER</h2>
-                                    <label for="">Username or Email address *</label>
-                                    <input type="text" class="login-p">
-                                    <label for="" class="pass">Password *</label>
-                                    <input type="password" class="login-p">
-                                    <p>Your personal data will be used to support your experience throughout this website, to manage access to your account, and for other purposes described in our</p>
-                                    <a href="">privacy policy.</a>
-                                    <button>Register</button>
-                                </div>
-                            </div>
+                <div class="col-4 mt-4">
+                    <div class="address">
+                        <div class="location">
+                            <i class="fa-solid fa-location-dot"></i>
                         </div>
-                    </div> 
-                </form>
+                        <h6>102 Street 2714 Donovan</h6>
+                        <p>Lorem ipsum dolar site amet discont</p>
+                    </div>
+                </div>
+                <div class="col-4 mt-4">
+                    <div class="contact-number">
+                        <div class="phone">
+                            <i class="fa-solid fa-phone"></i>
+                        </div>
+                        <h6>+02 1234 567 88</h6>
+                        <p>Lorem ipsum dolar site amet discont</p>
+                    </div>
+                </div>
+                <div class="col-4 mt-4">
+                    <div class="mail-address">
+                        <div class="m-address">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+                        <h6>info@example.com</h6>
+                        <p>Lorem ipsum dolar site amet discont</p>
+                    </div>
+                </div>
             </div>
+        </div>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="form-wrapper mt-5">
+                    <div class="your-message mt-5">
+                        <div class="send-us mt-5">
+                            <h1>Send Us</h1>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita quaerat unde quam
+                                dolor culpa veritatis inventore, aut commodi eum veniam vel.</p>
+                        </div>
+                        <div class="form mt-5">
+                            <form action="">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <label for="text">Your name *</label>
+                                        <input type="text">
+                                    </div>
+                                    <div class="col-6">
+                                        <label for="email">Your email *</label>
+                                        <input type="email">
+                                    </div>
+                                    <div class="col-12">
+                                        <label for="text" class="subject">Subject *</label>
+                                        <input type="text">
+                                    </div>
+                                    <div class="col-12">
+                                        <label for="text" class="subject">Your message</label>
+                                        <input type="text" class="message">
+                                    </div>
+                                    <div class="col-6">
+                                        <button>Send message</button>
+                                    </div>
+                                </div>         
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+
+
+        </div>
+        </div>
+        </div>
         </div>
     </main>
     <footer>
@@ -500,11 +546,12 @@
                             <div class="apple-google">
                                 <a href="https://play.google.com/store;?hl=ru&gl=US">
                                     <img src="https://klbtheme.com/bacola/wp-content/uploads/2021/04/google-play.png"
-                                    alt="">
+                                        alt="">
                                 </a>
                                 <a href="https://www.apple.com/store">
-                                    <img src="https://klbtheme.com/bacola/wp-content/uploads/2021/04/app-store.png" alt="">
-                                </a> 
+                                    <img src="https://klbtheme.com/bacola/wp-content/uploads/2021/04/app-store.png"
+                                        alt="">
+                                </a>
                             </div>
                             <div class="social-media">
                                 <a href="https://www.facebook.com/">
@@ -545,14 +592,17 @@
             </div>
         </div>
     </footer>
+
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
         integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-        <script src="https://kit.fontawesome.com/8ee7bee6cf.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/8ee7bee6cf.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
-        <script src="./assets/js/login-register.js"></script>
+    <script src="./assets/js/contact.js"></script>
 </body>
+
 </html>

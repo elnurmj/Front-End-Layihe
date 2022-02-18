@@ -45,13 +45,13 @@ clock.start();
 
 $('.owl-carousel').owlCarousel({
     loop:true,
-    margin:10,
     nav:true,
 
-    smartspeed: 1500,
-    animateIn:'linear',
-    animateOut:'linear',
+    smartSpeed: 1500,
+    animateIn: 'linear',
+    animateOut: 'linear',
     responsive:{
+
         0:{
             items:1
         },

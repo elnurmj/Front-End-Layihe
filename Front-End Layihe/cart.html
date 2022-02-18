@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login & Register</title>
+    <title>Cart</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
         integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <link rel="stylesheet" href="./assets/css/login-register.css">
+    <link rel="stylesheet" href="./assets/css/cart.css">
 </head>
+
 <body>
     <header>
         <div class="header border-bottom 1px head">
@@ -25,8 +27,12 @@
                     <div class="navbar">
                         <div class="col-4 about">
                             <ul>
-                                <a href="about.html"><li>About us</li></a>
-                                <a href="login-register.html"><li>My account</li></a>
+                                <a href="about.html">
+                                    <li>About us</li>
+                                </a>
+                                <a href="login-register.html">
+                                    <li>My account</li>
+                                </a>
                                 <li>Wishlist</li>
                                 <li>Order Tracking</li>
                             </ul>
@@ -141,7 +147,6 @@
                         </a>
                         <div class="price">
                             <a href="cart.html">
-                                <a href=""></a>
                                 <div class="dropdown">
                                     <button class="dropbtn">$0.00</button>
                                     <i class="fa-solid fa-basket-shopping shop">
@@ -252,13 +257,15 @@
                         <div class="menu">
                             <div class="dropdown3">
                                 <button class="dropbtn3">HOME <i class="fa-solid fa-angle-down down"></i></button>
-                                <a href="home.html"><div class="dropdown-content3">
-                                    <a href="home.html">Home 1</a>
-                                    <a href="home.html">Home 2</a>
-                                    <a href="home.html">Home 3</a>
-                                    <a href="home.html">Home 4</a>
-                                    <a href="home.html">Home 5</a>
-                                </div></a>
+                                <a href="home.html">
+                                    <div class="dropdown-content3">
+                                        <a href="home.html">Home 1</a>
+                                        <a href="home.html">Home 2</a>
+                                        <a href="home.html">Home 3</a>
+                                        <a href="home.html">Home 4</a>
+                                        <a href="home.html">Home 5</a>
+                                    </div>
+                                </a>
                             </div>
                             <div class="dropdown4">
                                 <button class="dropbtn4">SHOP <i class="fa-solid fa-angle-down down"></i></button>
@@ -326,7 +333,7 @@
                             <button class="dropbtn7"><i class="fa-solid fa-mug-hot coffee"></i>BEVERAGES</button>
                             <a href="blog.html"><button class="dropbtn8">BLOG</button></a>
                             <a href="contact.html"><button class="dropbtn9">CONTACT</button></a>
-                            
+
                         </div>
                     </div>
                 </div>
@@ -339,41 +346,157 @@
                 <div class="home d-flex">
                     <a href="home.html">HOME</a>
                     <i class="fa-solid fa-angle-right"></i>
-                <span>MY ACCOUNT</span>
+                    <span>Cart</span>
                 </div>
-                <form action="">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-6 mt-5">
-                                <div class="login">
-                                    <h2>LOGIN</h2>
-                                    <label for="email">Username or Email address *</label>
-                                    <input type="text" class="login-p">
-                                    <label for="pass" class="pass">Password *</label>
-                                    <input type="password" class="login-p"> 
-                                    <input type="checkbox" class="remember-me"> 
-                                    <label for="remember-me">Remember me</label>
-                                    <button>Log in</button>
-                                    <a href="">Lost your password?</a>
-                                </div>   
+            </div>
+        </div>
+
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-8">
+                        <div class="cart-product mt-5">
+                            <div class="row">
+                                <div class="col-7 product-name">
+                                    <p>Product</p>
+                                </div>
+                                <div class="col-1 product-price">
+                                    <p>Price</p>
+                                </div>
+                                <div class="col-2 product-quantity">
+                                    <p>Quantity</p>
+                                </div>
+                                <div class="col-2 product-subtotal">
+                                    <p>Subtotal</p>
+                                </div>
                             </div>
-                            <div class="col-6 mt-5">
-                                <div class="register">
-                                    <h2>REGISTER</h2>
-                                    <label for="">Username or Email address *</label>
-                                    <input type="text" class="login-p">
-                                    <label for="" class="pass">Password *</label>
-                                    <input type="password" class="login-p">
-                                    <p>Your personal data will be used to support your experience throughout this website, to manage access to your account, and for other purposes described in our</p>
-                                    <a href="">privacy policy.</a>
-                                    <button>Register</button>
+                            <div class="all-products mt-2">
+                                <div class="row">
+                                    <div class="col-7">
+                                        <img src="https://klbtheme.com/bacola/wp-content/uploads/2021/04/product-image-62-90x90.jpg"
+                                            alt="">
+                                        <span>All Natural Italian-Style Chicken Meatballs</p>
+                                    </div>
+                                    <div class="col-1 mt-4">
+                                        <p>$7.25</p>
+                                    </div>
+                                    <div class="col-2 mt-4 d-flex">
+                                        <div class="minus">
+                                            <span>-</span>
+                                        </div>
+                                        <div class="count">
+                                            <span>1</span>
+                                        </div>
+                                        <div class="plus">
+                                            <span>+</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-2 mt-4 total">
+                                        <p>$7.25</p>
+                                        <i class="fa-solid fa-xmark"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="all-products mt-2">
+                                <div class="row">
+                                    <div class="col-7">
+                                        <img src="https://klbtheme.com/bacola/wp-content/uploads/2021/04/product-image-60-90x90.jpg"
+                                            alt="">
+                                        <span>Angie's Boomchickapop Sweet & Salty Kettle Corn</p>
+                                    </div>
+                                    <div class="col-1 mt-4">
+                                        <p>$3.29</p>
+                                    </div>
+                                    <div class="col-2 mt-4 d-flex">
+                                        <div class="minus">
+                                            <span>-</span>
+                                        </div>
+                                        <div class="count">
+                                            <span>1</span>
+                                        </div>
+                                        <div class="plus">
+                                            <span>+</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-2 mt-4 total">
+                                        <p>$3.29</p>
+                                        <i class="fa-solid fa-xmark"></i>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div> 
-                </form>
+                        <div class="row mt-3">
+                            <div class="col-6">
+                                <input type="text" placeholder="Coupon code" class="coupon-code">
+                                <button class="apply-coupon">Apply Coupon</button>
+                            </div>
+                            <div class="col-6">
+                                <button class="update-cart">Update cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 mt-5">
+                        <div class="shopping-details">
+                            <div class="container">
+                                <h2>Cart Totals</h2>
+                            </div>
+                            <div class="row">
+                                <div class="col-6 total">
+                                    <th>Subtotal</th>
+                                </div>
+                                <div class="col-6 total-price">
+                                    <th>$10.54</th>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-4 mt-3">
+                                        <div class="shipping">
+                                            <th>Shipping</th>
+                                        </div>
+                                    </div>
+                                    <div class="col-8 mt-3">
+                                        <div class="shipping-details">
+                                            <div class="shipping-info mt-1">
+                                                <span class="flat-rate">Flat rate:</span>
+                                                <span class="five-dol"> $5.00</span>
+                                                <input type="radio" class="five" name="myRadios" value="1">
+                                            </div>
+                                            <div class="shipping-info mt-1">
+                                                <span class="free-shp">Free Shipping</span>
+                                                <input type="radio" class="free-shipping" name="myRadios" value="2">
+                                            </div>
+                                            <div class="shipping-info mt-1">
+                                                <span class="local-pick">Local pickup</span>
+                                                <input type="radio" class="local-pickup" name="myRadios" value="3">
+                                            </div>
+                                            <div class="shipping-info mt-1">
+                                                <span class="shipping-to">Shipping to</span><strong> AL</strong>
+                                                <br>
+                                                <br>
+                                            </div>
+                                            <a href="#">Change Address</a>
+                                        </div>
+                                    </div>
+                                    <div class="total-price-products">
+                                        <div class="row">
+                                            <div class="col-6 mt-5">
+                                                <h6>Total</h6>
+                                            </div>
+                                            <div class="col-6 mt-5">
+                                                <h4>$15.54</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button class="btn-checkout mt-3">Proceed to checkout</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
             </div>
-        </div>
+        </section>
     </main>
     <footer>
         <div class="background mt-5">
@@ -501,11 +624,12 @@
                             <div class="apple-google">
                                 <a href="https://play.google.com/store;?hl=ru&gl=US">
                                     <img src="https://klbtheme.com/bacola/wp-content/uploads/2021/04/google-play.png"
-                                    alt="">
+                                        alt="">
                                 </a>
                                 <a href="https://www.apple.com/store">
-                                    <img src="https://klbtheme.com/bacola/wp-content/uploads/2021/04/app-store.png" alt="">
-                                </a> 
+                                    <img src="https://klbtheme.com/bacola/wp-content/uploads/2021/04/app-store.png"
+                                        alt="">
+                                </a>
                             </div>
                             <div class="social-media">
                                 <a href="https://www.facebook.com/">
@@ -546,14 +670,18 @@
             </div>
         </div>
     </footer>
+
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
         integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-        <script src="https://kit.fontawesome.com/8ee7bee6cf.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/8ee7bee6cf.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
-        <script src="./assets/js/login-register.js"></script>
+    <script src="./assets/js/cart.js"></script>
+
 </body>
+
 </html>

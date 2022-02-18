@@ -1,3 +1,4 @@
+
 .covid{
     background-color: #233a95;
     position: relative;
@@ -886,346 +887,254 @@ ul li ul.dropdown li{
         color: white;
         font-size: 14px;
     }
+
 }
 
-
-.blog-img{
-    img{
-        border-radius: 5px;
-        display: block;
-    }
-
-    .fa-solid{
-        margin-top: 20px;
-        color: #74b4ce;
-        font-size: 10px;
-    }
-
-    .book-bandage{
-        margin-left: 20px;
-    }
-
+.home{
     a{
         text-decoration: none;
         color: black;
-        opacity: 0.7;
-    }
-
-    h1{
-        margin-top: 10px;
-        font-size: 45px;
-    }
-    button{
-        display: block;
-        margin-top: 30px;
-        border: none;
-        outline: none;
-        background-color: #233a95;
-        width: 113px;
-        height: 46px;
-        color: white;
-        border-radius: 5px;
-    }
-
-    .page-numbers{
-        .page-1{
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            font-size: .8875rem;
-            font-weight: 800;
-            width: 2.5rem;
-            height: 2.5rem;
-            border-radius: 50%;
-            color: #fff;
-            background-color:#2bbef9;
-        }
-        .page-2{
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            font-size: .8875rem;
-            font-weight: 700;
-            width: 2.5rem;
-            height: 2.5rem;
-            border-radius: 50%;
-            color: black;
-            background-color:white;
-            cursor: pointer;
-            margin-left: 3px;
-        }
-
-        .page-2:hover{
-            background-color: #f3f3f6;
-        }
-
-        .fa-angle-right{
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            font-size: .8875rem;
-            font-weight: 700;
-            width: 2.5rem;
-            height: 2.5rem;
-            border-radius: 50%;
-            color: black;
-            background-color:white;
-            cursor: pointer;
-            margin-left: 3px;
-        }
-
-        .fa-angle-right:hover{
-            background-color: #f3f3f6;
-        }
-    }
-}
-
-.search{
-    position: relative;
-
-    input{
-    width: 270px;
-    height: 40px;
-    border: none;
-    outline: none;
-    background-color: #f3f4f7;
-    border-radius: 5px;
-
-    }
-
-    input::placeholder{
-        padding-left: 15px;
+        font-size: 12px;
+        padding-top: 3px;
     }
 
     i{
-        position: absolute;
-        top: 14px;
-        right: 45px;
-        font-size: 13px;
+        padding-top: 7px;
+        padding-left: 5px;
+        font-size: 10px;
         opacity: 0.8;
-        padding-right: 10px;
-    }
-}
-
-.popular{
-    .widget-posts{
-        border: 1px solid #e4e5ee;
-        justify-content: space-between;
-        height: 350px;
-    }
-    .widget-imgs{
-        position: relative;
-        cursor: pointer;
-        img{
-            border-radius: 50%;
-            margin-left: 10px;
-            width: 100%; 
-        }
-
-
-        .circle-1{
-            top: -3px;
-            right: -18px;
-            position: absolute;
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            font-size: .6875rem;
-            font-weight: 600;
-            width: 1.5rem;
-            height: 1.5rem;
-            border-radius: 50%;
-            color: #fff;
-            background-color:  #2bbef9;
-            border: 2px solid #fff;
-            
-        }
-         .circle-2{
-            top: 105px;
-            right: -18px;
-            position: absolute;
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            font-size: .6875rem;
-            font-weight: 600;
-            width: 1.5rem;
-            height: 1.5rem;
-            border-radius: 50%;
-            color: #fff;
-            background-color:  #2bbef9;
-            border: 2px solid #fff;
-           
-         }
-
-        .circle-3{
-            top: 210px;
-            right: -18px;
-            position: absolute;
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            font-size: .6875rem;
-            font-weight: 600;
-            width: 1.5rem;
-            height: 1.5rem;
-            border-radius: 50%;
-            color: #fff;
-            background-color:  #2bbef9;
-            border: 2px solid #fff;
-            
-        }
+        padding-right: 5px;
     }
 
     span{
-        font-size:15px;
+        opacity: 0.8;
+        font-size: 13px;
+        padding-top: 2px;
+        color: gray;
     }
-
-    .widget-text-1{
-        width: 178px;
-        padding-left: 50px;
-    }
-    .widget-text-2{
-        width: 178px;
-        padding-left: 50px;
-        padding-top: 40px;
-    }
-    .widget-text-3{
-        padding-top: 40px;
-        width: 178px;
-        padding-left: 50px;
-    }
-
-    .img-s{
-        margin-top: 30px;
-    }
-
 }
 
-.social-medias{
-    button{
-        display: block;
-        margin-top: 5px;
-        width: 100%;
-        height: 42px;
+.cart-product{
+    .product-name{
+        border-bottom: 1px solid #e4e5ee;
+        p{
+            margin-left: 95px;
+        }
+    }
+    .product-price{
+        border-bottom: 1px solid #e4e5ee;
+    }
+    .product-quantity{
+        border-bottom: 1px solid #e4e5ee;
+    }
+    .product-subtotal{
+        border-bottom: 1px solid #e4e5ee;
+
+    }
+
+    .all-products{
+        background-color: white;
+        border-bottom: 1px solid #e4e5ee;
+        p{
+            margin-top: 5px;
+        }
+
+        .minus{
+            background-color: #edeef5;
+            border-radius: 50%;
+            width: 1.875rem;
+            height: 1.875rem;
+            cursor: pointer;
+            span{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+
+        .plus{
+            background-color: #edeef5;
+            border-radius: 50%;
+            width: 1.875rem;
+            height: 1.875rem;
+            margin-left: 15px;
+            cursor: pointer;
+
+            span{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+
+        .count{
+            margin-left: 15px;
+        }
+        .total{
+            p{
+                display: inline;
+                font-weight: bold;
+            }
+
+            i{
+                float: right;
+                margin-top: 4px;
+                cursor: pointer;
+            }
+        }
+    }
+
+    
+}
+
+.coupon-code{
+    border: none;
+    outline: none;
+    background-color: #f3f4f7;
+    width: 280px;
+    height: 44px;
+    padding-left: 20px;
+    border-radius: 5px;
+}
+
+.apply-coupon{
+    width: 121px;
+    height: 44px;
+    background-color: #233a95;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: .75rem;
+    height: 2.75rem;
+}
+
+.update-cart{
+    width: 110px;
+    height: 44px;
+    background-color: #f3f3f6;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    color: #c2c2d3;
+    font-size: .75rem;
+    height: 2.75rem;
+    float: right;
+}
+
+.shopping-details{
+    width: 320px;
+    height: 437px;
+    border: 1px solid #e4e5ee;
+    margin-left: 20px;
+
+    h2{
+        font-family: "Dosis", sans-serif;
+        font-size: 1rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        padding-bottom: 0.9375rem;
+        margin-top: 25px;
+        border-bottom: 0.9375rem;
+        border-bottom: 1px solid #e4e5ee;
+    }
+
+    .total{
+        padding-left: 40px;
+        font-weight: 500;
+    }
+
+    .total-price{
+        padding-left: 65px;
+    }
+
+    .shipping{
+        font-weight: 500;
+        border: 1px solid #e4e5ee;
+        width: 102px;
+        height: 163px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-right: 20px;
+    }
+
+    .shipping-details{
+        border-bottom:1px solid #e4e5ee;
+        border-top: 1px solid #e4e5ee;
+        border-right: 1px solid #e4e5ee; 
+        width: 175px;
+        height: 163px;
+        flex-direction: column;
+
+        a{
+            margin-left: 50px;
+            text-decoration: none;
+            color: #2bbef9;
+        }
+
+        a:hover{
+            color: #223a95;
+            text-decoration:underline;
+        }
+
+        .shipping-info{
+            display: flex;
+            justify-content: end;
+            align-items: center;
+            margin-right: 3px;
+        }
+
+        .flat-rate{
+            margin-right: 5px;
+            font-size: .8125rem;
+        }
+
+        .five-dol{
+            margin-right: 5px;
+            color: #ed174a;
+        }
+
+        .free-shp{
+            margin-right: 5px;
+            font-size: .8125rem;
+        }
+
+        .local-pick{
+            margin-right: 5px;
+            font-size: .8125rem;
+        }
+
+        .shipping-to{
+            margin-right: 5px;
+            font-size: .8125rem;
+        }
+    }
+
+    .total-price-products{
+        border-bottom: 1px solid #e4e5ee;
+
+        h4{
+            float: right;
+            font-size: 23px;
+        }
+    }
+
+    .btn-checkout{
+        width: 278px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 8px;
+        background-color: #ed174a;
         border: none;
-        outline: none;
         border-radius: 5px;
         color: white;
-        text-align: left;
-       
-        .fa-brands{
-            padding-left: 15px;
-        }
-
-        span{
-            padding-left: 35px;
-        }
     }
 
-    .fb{
-        background-color: #3b5998;
-    }
-
-    .fb:hover{
-        opacity: 0.7;
-    }
-
-    .tw{
-        background-color: #1da1f2;
-    }
-
-    .tw:hover{
-        opacity: 0.7;
-    }
-
-    .pinterest{
-        background-color: #e60023;
-    }
-
-    .pinterest:hover{
-        opacity: 0.7;
-    }
-
-    .linkedin{
-        background-color: #0077b5;
-    }
-
-    .linkedin:hover{
-        opacity: 0.7;
-    }
-
-    .reddit{
-        background-color: #ff4500;
-    }
-
-    .reddit:hover{
-        opacity: 0.7;
-    }
-}
-
-.widgets{
-    img{
-        width: 100%;
-        height: 100%;
-    }
-}
-
-.boxes{
-    max-width: 110px;
-    height: 30px;
-    display: flex;
-    flex-flow: row nowrap;
-
-    cursor: pointer;
-    .box-1{
-        width: 70px;
-        border: 1px solid #edeef5;
-        text-align: center;
-    }
-    .box-2{
-        margin-left: 25px;
-        width: 55px;
-        border: 1px solid #edeef5;
-        text-align: center;
-    }
-    .box-3{
-        margin-left: 40px;
-        width: 55px;
-        border: 1px solid #edeef5;
-        text-align: center;
-    }
-    .box-4{
-        width: 80px;
-        border: 1px solid #edeef5;
-        text-align: center;
-    }
-    .box-5{
-        margin-left: 30px;
-        width: 80px;
-        border: 1px solid #edeef5;
-        text-align: center;
-    }
-    .box-6{
-        margin-left: 65px;
-        width: 75px;
-        border: 1px solid #edeef5;
-        text-align: center;
-    }
-    .box-7{
-        width: 70px;
-        border: 1px solid #edeef5;
-        text-align: center;
-    }
-    .box-8{
-        margin-left: 25px;
-        width: 90px;
-        border: 1px solid #edeef5;
-        text-align: center;
-    }
-
-    a{
-        text-decoration: none;
-        color: black;
+    .btn-checkout:hover{
+        opacity: 0.8;
+        transition: all 0.2s;
     }
 }

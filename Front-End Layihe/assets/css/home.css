@@ -1147,6 +1147,20 @@ ul li ul.dropdown li {
           align-items: center;
 }
 
+.card .cars h3 {
+  position: absolute;
+  background-color: #2bbef9;
+  width: 50px;
+  height: 25px;
+  border-radius: 5px;
+  font-size: 12px;
+  float: left;
+  color: white;
+  padding-top: 7px;
+  padding-left: 14px;
+  top: 20px;
+}
+
 .card .in-card {
   padding-top: 20px;
   margin-left: -210px;
@@ -1167,8 +1181,8 @@ ul li ul.dropdown li {
 
 .card .recom {
   position: relative;
-  top: 29px;
-  right: 107px;
+  top: 50px;
+  right: 30px;
 }
 
 .card .recom h3 {
@@ -1875,5 +1889,14 @@ ul li ul.dropdown li {
   display: inline;
   font-family: "Dosis", sans-serif;
   color: #ed174a;
+}
+
+.pro-detail {
+  text-decoration: none;
+  color: black;
+}
+
+.pro-detail:hover {
+  color: black;
 }
 /*# sourceMappingURL=home.css.map */

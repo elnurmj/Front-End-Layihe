@@ -1,0 +1,922 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Detail</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/product-details.css">
+</head>
+
+<body>
+    <header>
+        <div class="header border-bottom 1px head">
+            <div class="covid">
+                Due to the
+                <strong>COVID 19</strong>
+                epidemic, orders may be processed with a slight delay
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="navbar">
+                        <div class="col-4 about">
+                            <ul>
+                                <a href="about.html">
+                                    <li>About us</li>
+                                </a>
+                                <a href="login-register.html">
+                                    <li>My account</li>
+                                </a>
+                                <li>Wishlist</li>
+                                <li>Order Tracking</li>
+                            </ul>
+                        </div>
+                        <div class="col-4 secure">
+                            <i class="fa-solid fa-anchor anc"></i>
+                            <span>100% Secure delivery without contacting the courier</span>
+                        </div>
+                        <div class="col-2 help">
+                            <span>Need help? Call us:</span>
+                            <a href="">+0020 500</a>
+                        </div>
+                        <div class="col-1">
+                            <ul>
+                                <li class="space">
+                                    <a href="#">English &#9662;</a>
+                                    <ul class="dropdown">
+                                        <li><a href="#">English</a></li>
+                                        <li><a href="#">Spanish</a></li>
+                                        <li><a href="#">German</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-1">
+                            <ul>
+                                <li>
+                                    <a href="#">USD &#9662;</a>
+                                    <ul class="dropdown">
+                                        <li><a href="#">USD</a></li>
+                                        <li><a href="#">INR</a></li>
+                                        <li><a href="#">GBP</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-2">
+                        <div class="site-name">
+                            <a class="site" href="https://klbtheme.com/bacola/">
+                                <img class="logo-img"
+                                    src="https://klbtheme.com/bacola/wp-content/uploads/2021/04/bacola-logo.png" alt="">
+                                <span class="descp">Online Grocery Shopping Center</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="location-wrapper">
+                            <button type="button" class="btn-modal btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#staticBackdrop">
+                                <span>Your Location</span> <i class="fa-solid fa-angle-down"></i><br>
+                                <strong>Select a location</strong>
+                            </button>
+                            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static"
+                                data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-scrollable">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+
+                                            <p id="staticBackdropLabel" class="modal-title"><strong>Choose your Delivery
+                                                    Location</strong>
+                                                <br>
+                                                Enter your address and we will specify the offer for your area.
+                                            </p>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="modals-search">
+                                                <i class="fa-solid fa-magnifying-glass"></i><input class="search ps-1"
+                                                    style="width: 95%; margin-bottom: 10px; border: none;"
+                                                    placeholder="Search your area" type="search">
+                                            </div>
+                                            <ul>
+                                                <li class="list-group-item">Select a Location <span>Clear All</span>
+                                                </li>
+                                                <li class="list-group-item">Alabama <span>Min:130$</span> </li>
+                                                <li class="list-group-item">Albania <span>Min:120$</span></li>
+                                                <li class="list-group-item">New Zelland <span>Min:90$</span> </li>
+                                                <li class="list-group-item">Azerbaijan <span>Min:150$</span> </li>
+                                                <li class="list-group-item">Alabama <span>Min:130$</span> </li>
+                                                <li class="list-group-item">Albania <span>Min:120$</span></li>
+                                                <li class="list-group-item">New Zelland <span>Min:90$</span> </li>
+                                                <li class="list-group-item">Azerbaijan <span>Min:150$</span> </li>
+                                                <li class="list-group-item">Alabama <span>Min:130$</span> </li>
+                                                <li class="list-group-item">Albania <span>Min:120$</span></li>
+                                                <li class="list-group-item">New Zelland <span>Min:90$</span> </li>
+                                                <li class="list-group-item">Azerbaijan <span>Min:150$</span> </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6" style="width: 610px;">
+                        <div class="input">
+                            <input type="text" placeholder="Search for products">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <a href="https://klbtheme.com/bacola/my-account/">
+                            <div class="profile">
+                                <i class="fa-solid fa-user"></i>
+                            </div>
+                        </a>
+                        <div class="price">
+                            <a href="cart.html">
+                                <div class="dropdown">
+                                    <button class="dropbtn">$0.00</button>
+                                    <i class="fa-solid fa-basket-shopping shop">
+                                        <div class="cart-icon">
+                                            <span>2</span>
+                                        </div>
+                                    </i>
+                                    <div class="dropdown-content">
+                                        <div class="container">
+                                            <div class="content">
+                                                <i class="fa-brands fa-ethereum crystal"></i>
+                                                <span>No products in the cart.</span>
+                                                <span class="ship">We reduce shipping prices to only 2.49 €!</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-3 mt-4">
+                        <div class="categories">
+                            <div class="dropdown2">
+                                <button class="btn btn-secondary btn-dropdown dropdown-toggle" type="button"
+                                    id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="fa-solid fa-bars"></i>
+                                    All categories
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                    <li class="list-item"><a class="dropdown-item chevron" href="#"><i
+                                                class="fa-brands fa-apple"></i> Fruits
+                                            & Vegetables</a><i class="fa-solid fa-chevron-right"></i>
+                                        <ul class="dropdown-menu first">
+                                            <li class="list-group-item">
+                                                <a href="#" class="dropdown-item">Cuts & Sprouts</a>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <a href="#" class="dropdown-item">Exotic Fruits &
+                                                    Veggies</a>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <a href="#" class="dropdown-item">Fresh Fruits</a>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <a href="#" class="dropdown-item">Fresh
+                                                    Vegetables</a>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <a href="#" class="dropdown-item">Herbs &
+                                                    Seasonings</a>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <a href="#" class="dropdown-item">Packaged
+                                                    Produce</a>
+                                            </li>
+                                            <li class="list-group-item"><a href="#" class="dropdown-item">Party
+                                                    Trays</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="list-item"><a class="dropdown-item" href="#"><i
+                                                class="fa-solid fa-drumstick-bite"></i>Meats & Seafoof</a></li>
+                                    <li class="list-item"><a class="dropdown-item" href="#"><i
+                                                class="fa-solid fa-egg"></i>Breakfast & Dairy</a></li>
+                                    <li class="list-item"><a class="dropdown-item chevron" href="#"><i
+                                                class="fa-solid fa-mug-saucer"></i>Beverages</a><i
+                                            class="fa-solid fa-chevron-right"></i>
+                                        <ul class="dropdown-menu last">
+                                            <li class="list-group-item"><a href="#" class="dropdown-item">Coffee</a>
+                                            </li>
+                                            <li class="list-group-item"><a href="#" class="dropdown-item">Craft Beer</a>
+                                            </li>
+                                            <li class="list-group-item"><a href="#" class="dropdown-item">Drink Boxes &
+                                                    Pouches</a></li>
+                                            <li class="list-group-item"><a href="#" class="dropdown-item">Milk &
+                                                    Plant-Based
+                                                    Milk</a></li>
+                                            <li class="list-group-item"><a href="#" class="dropdown-item">Soda & Pop</a>
+                                            </li>
+                                            <li class="list-group-item"><a href="#" class="dropdown-item">Sparkling
+                                                    Water</a></li>
+                                            <li class="list-group-item"><a href="#" class="dropdown-item">Tea &
+                                                    Kombucha</a>
+                                            </li>
+                                            <li class="list-group-item"><a href="#" class="dropdown-item">Water</a></li>
+                                            <li class="list-group-item"><a href="#" class="dropdown-item">Wine</li>
+                                        </ul>
+                                    </li>
+                                    <li class="list-item">
+                                        <a class="dropdown-item" href="#">
+                                            <i class="fa-solid fa-burger"></i>
+                                            Breads & Bakery</a>
+                                    </li>
+                                    <li class="list-item"><a class="dropdown-item" href="#"><i
+                                                class="fa-solid fa-egg"></i>Breakfast & Dairy</a></li>
+                                    <li class="list-item"><a class="dropdown-item" href="#"><i
+                                                class="fa-solid fa-mug-saucer"></i>Beverages</a></li>
+                                    <li class="list-item"><a class="dropdown-item last-item" href="#"><i
+                                                class="fa-solid fa-burger"></i>Breads & Bakery</a></li>
+                                    <li class="list-item"><a class="dropdown-item" href="#">Value of the Day</a></li>
+                                    <li class="list-item"><a class="dropdown-item" href="#">Top 100 Offers</a></li>
+                                    <li class="list-item"><a class="dropdown-item" href="#">New Arrivals</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-9 mt-4">
+                        <div class="menu">
+                            <div class="dropdown3">
+                                <button class="dropbtn3">HOME <i class="fa-solid fa-angle-down down"></i></button>
+                                <a href="home.html">
+                                    <div class="dropdown-content3">
+                                        <a href="home.html">Home 1</a>
+                                        <a href="home.html">Home 2</a>
+                                        <a href="home.html">Home 3</a>
+                                        <a href="home.html">Home 4</a>
+                                        <a href="home.html">Home 5</a>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="dropdown4">
+                                <a href="shop.html"><button class="dropbtn4">SHOP <i
+                                            class="fa-solid fa-angle-down down"></i></button></a>
+                                <div class="dropdown-content4">
+                                    <a href="#">Shop Lists
+                                        <ul>
+
+                                            <li>Shop Default</li>
+                                            <li>Shop Right Sidebar</li>
+                                            <li>Sgop Wide</li>
+                                            <li>List Left Sidebar</li>
+                                            <li>Load More Button</li>
+                                            <li>Infinite Scrolling</li>
+                                        </ul>
+                                    </a>
+                                    <a href="#">Product Detail
+                                        <ul>
+
+                                            <li>Product Default</li>
+                                            <li>Product Variable</li>
+                                            <li>Product Grouped</li>
+                                            <li>Product External</li>
+                                            <li>Product Downloadable</li>
+                                            <li>Product With Video</li>
+                                        </ul>
+                                    </a>
+                                    <a href="#">Product Types
+                                        <ul>
+
+                                            <li>Single Type 1</li>
+                                            <li>Single Type 2</li>
+                                            <li>Single Type 3</li>
+                                            <li>Single Type 4</li>
+                                            <li>Thumbnails Left</li>
+                                            <li>Zoom Image</li>
+                                        </ul>
+                                    </a>
+                                    <a href="#">Shop Pages
+                                        <ul>
+
+                                            <li>Cart</li>
+                                            <li>Checkout</li>
+                                            <li>My account</li>
+                                            <li>Wishlist</li>
+                                            <li>Order Tracking</li>
+                                            <li>Order on WhatsApp</li>
+                                        </ul>
+                                    </a>
+                                    <a href="#">Shop Layouts
+                                        <ul>
+
+                                            <li>Two Columns</li>
+                                            <li>Three Columns</li>
+                                            <li>Three Columns Wide</li>
+                                            <li>Four Columns</li>
+                                            <li>Four Columns Wide</li>
+                                            <li>Five Columns Wide</li>
+                                        </ul>
+                                    </a>
+                                </div>
+                            </div>
+                            <button class="dropbtn5"><i class="fa-solid fa-drumstick-bite meat"></i>MEATS &
+                                SEAFOOD</button>
+                            <button class="dropbtn6"><i class="fa-solid fa-cookie-bite cookie"></i>BAKERY</button>
+                            <button class="dropbtn7"><i class="fa-solid fa-mug-hot coffee"></i>BEVERAGES</button>
+                            <a href="blog.html"><button class="dropbtn8">BLOG</button></a>
+                            <a href="contact.html"><button class="dropbtn9">CONTACT</button></a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main-background">
+        <div class="container">
+            <div class="row">
+                <div class="home d-flex">
+                    <a href="home.html">HOME</a>
+                    <i class="fa-solid fa-angle-right"></i>
+                    <a href="shop.html"><span>MEATS & SEAFOOD</span></a>
+                    <i class="fa-solid fa-angle-right"></i>
+                    <span>ALL NATURAL ITALIAN-STYLE CHICKEN MEATBALLS</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="product-details mt-5">
+                <div class="row">
+                    <div class="col-5">
+                        <h1>All Natural Italian-Style Chicken Meatballs</h1>
+                        <div class="product-meta mt-3 d-flex">
+                            <div class="brands">
+                                <span class="brand">Brands:</span>
+                                <span>Welch's</span>
+                            </div>
+                            <div class="product-star">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star gray"></i>
+                                <span>1 REVIEW</span>
+                            </div>
+                            <div class="sku">
+                                <span class="sku">SKU:</span>
+                                <span>ZU49VOR</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 mt-5">
+                        <div class="price-about mt-5">
+                            <span class="expensive">$9.35</span>
+                            <span class="cheap">$7.25</span>
+                            <div class="in-stock">
+                                <h3>IN STOCK</h3>
+                            </div>
+                            <p class="vivamus">Vivamus adipiscing nisl ut dolor dignissim semper. Nulla luctus malesuada
+                                tincidunt. Class aptent taciti sociosqu ad litora torquent</p>
+                            <div class="minus-count">-</div>
+                            <span class="count-1">1</span>
+                            <div class="plus-count">+</div>
+                            <button class="add-to-cart">Add to Cart</button>
+                            <div class="add-to-wishlist mt-5 d-flex">
+                                <div class="heart-wish">
+                                    <i class="fa-solid fa-heart"></i>
+                                    <span>ADD TO WISHLIST</span>
+                                </div>
+                                <i class="fa-solid fa-code-compare"></i>
+                                <span class="compare">COMPARE</span>
+                            </div>
+                            <div class="done mt-5">
+                                <ul>
+                                    <li><i class="fa-solid fa-check"></i>Type: Organic</li>
+                                    <li><i class="fa-solid fa-check"></i>MFG: Jun 4.2021</li>
+                                    <li><i class="fa-solid fa-check"></i>LIFE: 30 days</li>
+                                </ul>
+                            </div>
+                            <div class="category mt-4">
+                                <span>Category:</span>
+                                <span class="meats-food">Meats & Seafood</span>
+                            </div>
+                            <div class="tags">
+                                <span>Tags:</span>
+                                <span class="meats-food">chicken, natural, organic</span>
+                            </div>
+                            <div class="social-media-address">
+                                <a href="https://www.facebook.com/">
+                                    <div class="fb-icon">
+                                        <i class="fa-brands fa-facebook-f"></i>
+                                    </div>
+                                </a>
+                                <a href="https://twitter.com/?lang=en">
+                                    <div class="tw-icon">
+                                        <i class="fa-brands fa-twitter"></i>
+                                    </div>
+                                </a>
+                                <a href="">
+                                    <div class="pinterest-icon">
+                                        <i class="fa-brands fa-pinterest"></i>
+                                    </div>
+                                </a>
+                                <a href="">
+                                    <div class="linkedin-icon">
+                                        <i class="fa-brands fa-linkedin-in"></i>
+                                    </div>
+                                </a>
+                                <a href="">
+                                    <div class="reddit-icon">
+                                        <i class="fa-brands fa-reddit"></i>
+                                    </div>
+                                </a>
+                                <a href="">
+                                    <div class="whatsapp-icon">
+                                        <i class="fa-brands fa-whatsapp"></i>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 mt-5">
+                        <div class="covid-19 mt-5">
+                            <span>Covid-19 Info: We keep delivering.</span>
+                        </div>
+                        <div class="ship-guarantee mt-2">
+                            <div class="delivery-truck">
+                                <i class="fa-solid fa-truck"></i>
+                                <span>Free Shipping apply to all orders over $100</span>
+                            </div>
+                            <div class="milk mt-2">
+                                <i class="fa-solid fa-blender"></i>
+                                <span>Guranteed 100% Organic from natural farmas</span>
+                            </div>
+                            <div class="icon-dollar mt-2">
+                                <i class="fa-solid fa-dollar-sign"></i>
+                                <span>1 Day Returns if you change your mind</span>
+                            </div>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="description mt-5">
+                <div class="row">
+                    <div class="tab">
+                        <button class="tablinks" onclick="openCity(event, 'London')">DESCRIPTION</button>
+                        <button class="tablinks" onclick="openCity(event, 'Paris')">ADDITIONAL INFORMATION</button>
+                        <button class="tablinks" onclick="openCity(event, 'Tokyo')">REVIEWS [1]</button>
+                    </div>
+
+                    <div id="London" class="tabcontent">
+                        <p>Quisque varius diam vel metus mattis, id aliquam diam rhoncus. Proin vitae magna in dui
+                            finibus malesuada et at nulla. Morbi elit ex, viverra vitae ante vel, blandit feugiat
+                            ligula. Fusce fermentum iaculis nibh, at sodales leo maximus a. Nullam ultricies sodales
+                            nunc, in pellentesque lorem mattis quis. Cras imperdiet est in nunc tristique lacinia.
+                            Nullam aliquam mauris eu accumsan tincidunt. Suspendisse velit ex, aliquet vel ornare vel,
+                            dignissim a tortor.</p>
+                        <p>Morbi ut sapien vitae odio accumsan gravida. Morbi vitae erat auctor, eleifend nunc a,
+                            lobortis neque. Praesent aliquam dignissim viverra. Maecenas lacus odio, feugiat eu nunc sit
+                            amet, maximus sagittis dolor. Vivamus nisi sapien, elementum sit amet eros sit amet,
+                            ultricies cursus ipsum. Sed consequat luctus ligula. Curabitur laoreet rhoncus blandit.
+                            Aenean vel diam ut arcu pharetra dignissim ut sed leo. Vivamus faucibus, ipsum in vestibulum
+                            vulputate, lorem orci convallis quam, sit amet consequat nulla felis pharetra lacus. Duis
+                            semper erat mauris, sed egestas purus commodo vel.</p>
+                    </div>
+
+                    <div id="Paris" class="tabcontent">
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="brands">Brands</div>
+                            </div>
+                            <div class="col-6">
+                                <div class="welchs"> Welch's</div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div id="Tokyo" class="tabcontent mt-2">
+                        <div class="container">
+                            <h6>1 REVIEW FOR ALL NATURAL ITALIAN-STYLE CHICKEN MEATBALLS</h6>
+                        <div class="comment">
+                            <img src="https://secure.gravatar.com/avatar/3384f98a21c5dce2051e8f5a20928b05?s=60&d=mm&r=g"
+                                alt="">
+                            <div class="stars">
+                                <i class="fa-solid fa-star left"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star gray"></i>
+                            <div class="admin">
+                                <span><strong>admin</strong> – May 1, 2021</span>
+                                <p>Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="add-a-review mt-1">
+                            <h6>Add a review</h6>
+                        </div>
+                        <form action="">
+                            <div class="my-form mt-4">
+                                <p>Your email address will not be published. Required fields are marked *</p>
+                                <p>Your rating *</p>
+                                <div class="your-rating d-flex">
+                                    <div class="one-star">
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="two-star ms-4">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="three-star ms-4">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="four-star ms-4">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="five-star ms-4">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                </div>
+                                <p class="your-review mt-4">Your review *</p>
+                                <textarea id="your-area" rows="4" cols="50"></textarea>
+                                <p id="name">Name *</p>
+                                <input type="text" class="name-text">
+                                <p id="name">Email *</p>
+                                <input type="text" class="email-text">
+                                <div class="form-check mt-3">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                        Save my name, email, and website in this browser for the next time I comment.
+                                    </label>
+                                  </div>
+                                  <button class="submit mt-3">Submit</button>
+                            </div> 
+                        </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container mt-5">
+            <h4 class="related">RELATED PRODUCTS</h4>
+            <div class="related-products mt-1">
+                <div class="row">
+                    <div class="col-3 pad">
+                        <div class="card crd crds">
+                            <div class="in-card">
+                                <h3>23%</h3>
+                            </div>
+                            <div class="organic">
+                                <h3>ORGANIC</h3>
+                            </div>
+                            <img class="card-img-top"
+                                src="https://klbtheme.com/bacola/wp-content/uploads/2021/04/product-image-46-346x310.jpg"
+                                alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Field Roast Chao Cheese Creamy Original</h5>
+                                <p class="card-text">IN STOCK</p>
+                                <div class="card-stars">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star gray"></i>
+                                </div>
+                                <div class="prices mt-3">
+                                    <h4 class="expensive">$8.49</h4>
+                                    <h3 class="cheap">$3.49</h3>
+                                </div>
+                                <a href="#" class="btn btn-primary mt-4">Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 pad">
+                        <div class="card crd crds">
+                            <div class="in-card">
+                                <h3>27%</h3>
+                            </div>
+                            <div class="organic">
+                                <h3>ORGANIC</h3>
+                            </div>
+                            <img class="card-img-top"
+                                src="https://klbtheme.com/bacola/wp-content/uploads/2021/04/product-image-41-346x310.jpg"
+                                alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Gorton’s Beer Battered Fish Fillets Beer</h5>
+                                <p class="card-text">IN STOCK</p>
+                                <div class="card-stars">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star gray"></i>
+                                    <i class="fa-solid fa-star gray"></i>
+                                </div>
+                                <div class="prices mt-3">
+                                    <h4 class="expensive">$5.49</h4>
+                                    <h3 class="cheap">$3.49</h3>
+                                </div>
+                                <a href="#" class="btn btn-primary mt-4">Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 pad">
+                        <div class="card crd crds">
+                            <div class="in-card">
+                                <h3>28%</h3>
+                            </div>
+                            <div class="organic">
+                                <h3>ORGANIC</h3>
+                            </div>
+                            <img class="card-img-top"
+                                src="https://klbtheme.com/bacola/wp-content/uploads/2021/04/product-image-48-346x310.jpg"
+                                alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Encore Seafoods Stuffed Alaskan Salmon</h5>
+                                <p class="card-text">IN STOCK</p>
+                                <div class="card-stars">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <div class="prices mt-3">
+                                    <h4 class="expensive">$7.49</h4>
+                                    <h3 class="cheap">$34.49</h3>
+                                </div>
+                                <a href="#" class="btn btn-primary mt-4">Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 pad">
+                        <div class="card crd crds">
+                            <div class="in-card">
+                                <h3>29%</h3>
+                            </div>
+                            <img class="card-img-top"
+                                src="https://klbtheme.com/bacola/wp-content/uploads/2021/04/product-image-43-346x310.jpg"
+                                alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Frozen Beef & Cheese Mini Tacos Frozen</h5>
+                                <p class="card-text">IN STOCK</p>
+                                <div class="card-stars">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star gray"></i>
+                                </div>
+                                <div class="prices mt-3">
+                                    <h4 class="expensive">$6.49</h4>
+                                    <h3 class="cheap">$.49</h3>
+                                </div>
+                                <a href="#" class="btn btn-primary mt-4">Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container mt-5">
+            <h4 class="recently">RECENTLY VIEWED PRODUCTS</h4>
+            <div class="recently-view mt-1">
+                <div class="row">
+                        <div class="col-3 pad">
+                            <div class="card crd crds">
+                                <div class="in-card">
+                                    <h3>29%</h3>
+                                </div>
+                                <img class="card-img-top"
+                                    src="https://klbtheme.com/bacola/wp-content/uploads/2021/04/product-image-43-346x310.jpg"
+                                    alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Frozen Beef & Cheese Mini Tacos Frozen</h5>
+                                    <p class="card-text">IN STOCK</p>
+                                    <div class="card-stars">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star gray"></i>
+                                    </div>
+                                    <div class="prices mt-3">
+                                        <h4 class="expensive">$6.49</h4>
+                                        <h3 class="cheap">$.49</h3>
+                                    </div>
+                                    <a href="#" class="btn btn-primary mt-4">Add to cart</a>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="background mt-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6 my-text">
+                        <h6>$20 discount for your first order</h6>
+                        <h3>Join our newsletter and get...</h3>
+                        <p class="pc">Join our email subscription now to get updatesp
+                        <p>
+                        <p> on promotions and coupons.</p>
+                        <div class="sub mt-4">
+                            <i class="fa-solid fa-envelope"></i>
+                            <input class="email-add" type="email" placeholder="Your email address">
+                            <input type="submit" value="Subscribe" class="subs">
+                        </div>
+                    </div>
+                    <div class="col-6 coupon">
+                        <img src="https://klbtheme.com/bacola/wp-content/uploads/2021/04/coupon.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="icon-boxes p-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-3 blender">
+                        <i class="fa-solid fa-blender"></i>
+                        <h6>Everyday fresh products</h6>
+                    </div>
+                    <div class="col-3 blender">
+                        <i class="fa-solid fa-truck"></i>
+                        <h6>Free delivery for order over $70</h6>
+                    </div>
+                    <div class="col-3 blender">
+                        <i class="fa-solid fa-percent"></i>
+                        <h6>Daily Mega Discounts</h6>
+                    </div>
+                    <div class="col-3 blender">
+                        <i class="fa-solid fa-dollar-sign"></i>
+                        <h6>Best price on the market</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="all-products p-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-2 cards" style="width: 260px;">
+                        <h6>FRUIT & VEGETABLES</h6>
+                        <p>Fresh Vegetables</p>
+                        <p>Herbs & Seasonings</p>
+                        <p>Fresh Fruits</p>
+                        <p>Cuts & Sprouts</p>
+                        <p>Exotic Fruits & Veggies</p>
+                        <p>Packaged Produce</p>
+                        <p>Party Trays</p>
+                    </div>
+                    <div class="col-2 cards" style="width: 260px;">
+                        <h6>BREAKFAST & DAIRY</h6>
+                        <p>Milk & Flavoured Milk</p>
+                        <p>Butter and Margarine</p>
+                        <p>Cheese</p>
+                        <p>Eggs Substitutes</p>
+                        <p>Honey</p>
+                        <p>Marmalades</p>
+                        <p>Sour Cream and Dips</p>
+                        <p>Yogurt</p>
+                    </div>
+                    <div class="col-2 cards" style="width: 260px;">
+                        <h6>MEAT & SEAFOOD</h6>
+                        <p>Breakfast Sausage</p>
+                        <p>Dinner Sausage</p>
+                        <p>Beef</p>
+                        <p>Chicken</p>
+                        <p>Sliced Deli Meat</p>
+                        <p>Shrimp</p>
+                        <p>Wild Caught Fillets</p>
+                        <p>Crab and Shellfish</p>
+                        <p>Farm Raised Fillets</p>
+                    </div>
+                    <div class="col-2 cards" style="width: 260px;">
+                        <h6>BEVERAGES</h6>
+                        <p>Water</p>
+                        <p>Sparkling Water</p>
+                        <p>Soda & Pop</p>
+                        <p>Coffee</p>
+                        <p>Milk & Plant-Based Milk</p>
+                        <p>Tea & Kombucha</p>
+                        <p>Drink Boxes & Pouches</p>
+                        <p>Craft Beer</p>
+                        <p>Wine</p>
+                    </div>
+                    <div class="col-2 cards" style="width: 260px;">
+                        <h6>BREADS & BAKERY</h6>
+                        <p>Milk & Flavoured Milk</p>
+                        <p>Butter and Margarine</p>
+                        <p>Cheese</p>
+                        <p>Eggs Substitutes</p>
+                        <p>Honey</p>
+                        <p>Marmalades</p>
+                        <p>Sour Cream and Dips</p>
+                        <p>Yogurt</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="f-contacts p-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6">
+                        <div class="phone-icon">
+                            <i class="fa-solid fa-phone-volume"></i>
+                        </div>
+                        <h4> 8 800 555-55</h4>
+                        <span class="work">Working 8:00 - 22:00</span>
+                    </div>
+                    <div class="col-6">
+                        <div class="info d-flex">
+                            <div class="site-app">
+                                <h6>Download App on Mobile :</h6>
+                                <span>15% discount on your first purchase</span>
+                            </div>
+                            <div class="apple-google">
+                                <a href="https://play.google.com/store;?hl=ru&gl=US">
+                                    <img src="https://klbtheme.com/bacola/wp-content/uploads/2021/04/google-play.png"
+                                        alt="">
+                                </a>
+                                <a href="https://www.apple.com/store">
+                                    <img src="https://klbtheme.com/bacola/wp-content/uploads/2021/04/app-store.png"
+                                        alt="">
+                                </a>
+                            </div>
+                            <div class="social-media">
+                                <a href="https://www.facebook.com/">
+                                    <div class="fb-icon">
+                                        <i class="fa-brands fa-facebook-f"></i>
+                                    </div>
+                                </a>
+                                <a href="https://twitter.com/?lang=en">
+                                    <div class="tw-icon">
+                                        <i class="fa-brands fa-twitter"></i>
+                                    </div>
+                                </a>
+                                <a href="https://www.instagram.com/">
+                                    <div class="ins-icon">
+                                        <i class="fa-brands fa-instagram"></i>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="line"></div>
+            </div>
+        </div>
+        <div class="copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6">
+                        <p>Copyright 2022 © Bacola WordPress Theme. All rights reserved. Powered by KlbTheme.</p>
+                    </div>
+                    <div class="col-6">
+                        <p>Privacy Policy</p>
+                        <p class="p-space">Terms and Conditions</p>
+                        <p class="p-space">Cookie</p>
+                        <img src="https://klbtheme.com/bacola/wp-content/uploads/2021/04/payments.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://kit.fontawesome.com/8ee7bee6cf.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script src="./assets/js/product-details.js"></script>
+</body>
+
+</html>

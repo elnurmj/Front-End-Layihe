@@ -1026,6 +1026,9 @@ ul li ul.dropdown li {
 
 .product-categories-checkbox .beverages ul li {
   list-style: none;
+  display: block;
+  text-align: left;
+  margin-left: 20px;
 }
 
 .product-categories-checkbox .breads .breads-label {
@@ -1038,7 +1041,10 @@ ul li ul.dropdown li {
 }
 
 .product-categories-checkbox .breads ul li {
+  display: block;
   list-style: none;
+  text-align: left;
+  margin-left: 20px;
 }
 
 .product-categories-checkbox .breakfast .breakfast-label {
@@ -1051,7 +1057,10 @@ ul li ul.dropdown li {
 }
 
 .product-categories-checkbox .breakfast ul li {
+  display: block;
   list-style: none;
+  text-align: left;
+  margin-left: 20px;
 }
 
 .product-categories-checkbox .fruits .fruits-label {
@@ -1064,7 +1073,10 @@ ul li ul.dropdown li {
 }
 
 .product-categories-checkbox .fruits ul li {
+  display: block;
   list-style: none;
+  text-align: left;
+  margin-left: 20px;
 }
 
 .product-categories-checkbox .meats .meats-label {
@@ -1077,7 +1089,10 @@ ul li ul.dropdown li {
 }
 
 .product-categories-checkbox .meats ul li {
+  display: block;
   list-style: none;
+  text-align: left;
+  margin-left: 20px;
 }
 
 #price-min {

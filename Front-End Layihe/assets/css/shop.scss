@@ -934,19 +934,24 @@ $font:sans-serif;
     font-size: 10px;
 }
 
-.product-categories-checkbox{
-    
+
+
+.product-categories-checkbox{ 
     height:255px ;
     
     .beverages{
         .beverages-label{
             display: flex;
             justify-content: space-between;
+            
         }
         ul{
+            
             li{
-                
                 list-style: none;
+                display: block;
+                text-align: left;
+                margin-left: 20px;
             }
             
         }
@@ -958,7 +963,10 @@ $font:sans-serif;
         }
         ul{
             li{
+                display: block;
                 list-style: none;
+                text-align: left;
+                margin-left: 20px;
             }
             
         }
@@ -971,7 +979,10 @@ $font:sans-serif;
         }
         ul{
             li{
+                display: block;
                 list-style: none;
+                text-align: left;
+                margin-left: 20px;
             }
             
         }
@@ -983,7 +994,10 @@ $font:sans-serif;
         }
         ul{
             li{
+                display: block;
                 list-style: none;
+                text-align: left;
+                margin-left: 20px;
             }
             
         }
@@ -994,8 +1008,12 @@ $font:sans-serif;
             justify-content: space-between;
         }
         ul{
+            
             li{
+                display: block;
                 list-style: none;
+                text-align: left;
+                margin-left: 20px;
             }
             
         }

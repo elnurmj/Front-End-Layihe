@@ -1183,7 +1183,12 @@ ul li ul.dropdown li{
     
 }
 
+.crd{
+    height: 434px;
+}
+
 .crd:hover{
+    height: 460px;
     position: absolute;
     z-index: 1;
     width: 280px;

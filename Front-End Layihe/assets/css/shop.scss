@@ -1281,6 +1281,10 @@ $font:sans-serif;
     
 }
 
+.crd{
+    height: 384px;
+}
+
 .crd:hover{
     cursor: pointer;
     position: absolute;
@@ -1288,6 +1292,7 @@ $font:sans-serif;
     width: 250px;
     transition: all 0.3s;
     box-shadow: 0px 1px 1px 2px #233a95;
+    height: 440px;
 }
 
 

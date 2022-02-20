@@ -1255,6 +1255,10 @@ ul li ul.dropdown li {
   background-color: #3b5998;
 }
 
+.price-about .fb-icon .fa-brands:hover {
+  opacity: 0.7;
+}
+
 .price-about .tw-icon {
   background-color: #ffffff;
   border-color: #e2e4ec;
@@ -1273,6 +1277,10 @@ ul li ul.dropdown li {
   padding: 9px;
   padding-left: 9px;
   background-color: #1da1f2;
+}
+
+.price-about .tw-icon .fa-brands:hover {
+  opacity: 0.7;
 }
 
 .price-about .pinterest-icon {
@@ -1295,6 +1303,10 @@ ul li ul.dropdown li {
   background-color: #e60023;
 }
 
+.price-about .pinterest-icon .fa-brands:hover {
+  opacity: 0.7;
+}
+
 .price-about .linkedin-icon {
   background-color: #ffffff;
   border-color: #e2e4ec;
@@ -1313,6 +1325,10 @@ ul li ul.dropdown li {
   padding: 9px;
   padding-left: 11px;
   background-color: #0077b5;
+}
+
+.price-about .linkedin-icon .fa-brands:hover {
+  opacity: 0.7;
 }
 
 .price-about .reddit-icon {
@@ -1335,6 +1351,10 @@ ul li ul.dropdown li {
   background-color: #ff4500;
 }
 
+.price-about .reddit-icon .fa-brands:hover {
+  opacity: 0.7;
+}
+
 .price-about .whatsapp-icon {
   background-color: #ffffff;
   border-color: #e2e4ec;
@@ -1353,6 +1373,10 @@ ul li ul.dropdown li {
   padding: 9px;
   padding-left: 11px;
   background-color: #25d366;
+}
+
+.price-about .whatsapp-icon .fa-brands:hover {
+  opacity: 0.7;
 }
 
 .covid-19 {
@@ -1684,12 +1708,6 @@ ul li ul.dropdown li {
   padding-left: 14px;
 }
 
-.card .recom {
-  position: relative;
-  top: 50px;
-  right: 30px;
-}
-
 .card .recom h3 {
   position: absolute;
   background-color: gray;
@@ -1777,6 +1795,7 @@ ul li ul.dropdown li {
 }
 
 .crds:hover {
+  position: absolute;
   z-index: 1;
   width: 340px;
   -webkit-transition: all 0.3s;
@@ -1796,5 +1815,88 @@ ul li ul.dropdown li {
 
 .recently h4 {
   font-size: 1.25rem;
+}
+
+.mySlides {
+  display: none;
+}
+
+.mySlides .percent {
+  padding-top: 0px;
+  margin-left: 0px;
+}
+
+.mySlides .percent h3 {
+  position: absolute;
+  background-color: #2bbef9;
+  width: 50px;
+  height: 25px;
+  border-radius: 5px;
+  font-size: 12px;
+  float: left;
+  color: white;
+  padding-top: 5px;
+  padding-left: 15px;
+}
+
+.mySlides .recommended {
+  position: relative;
+  top: 30px;
+  right: 0px;
+}
+
+.mySlides .recommended h3 {
+  position: absolute;
+  background-color: gray;
+  width: 88px;
+  height: 22px;
+  border-radius: 5px;
+  font-size: 9px;
+  float: left;
+  color: white;
+  padding-top: 6px;
+  padding-left: 10px;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.rows {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  width: 16.66%;
+  height: 67px;
+  margin-left: 10px;
+  padding: 0;
+}
+
+.demo {
+  border: 1px solid #e2e4ec;
+  border-radius: 5px;
+  cursor: pointer;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.active,
+.demo:hover {
+  border: 1px solid #233a95;
 }
 /*# sourceMappingURL=product-details.css.map */

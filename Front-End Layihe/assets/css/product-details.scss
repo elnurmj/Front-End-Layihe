@@ -750,6 +750,8 @@ ul li ul.dropdown li{
         color: #3e445a;
         padding: 9px;
         padding-left: 12px;
+
+        
 }
 }
 
@@ -1183,6 +1185,11 @@ ul li ul.dropdown li{
             padding: 9px;
             padding-left: 13px;
             background-color: #3b5998;
+
+            &:hover{
+                opacity: 0.7;
+                
+            }
     }
     }
 
@@ -1204,6 +1211,11 @@ ul li ul.dropdown li{
             padding: 9px;
             padding-left: 9px;
             background-color: #1da1f2;
+
+            &:hover{
+                opacity: 0.7;
+                
+            }
     }
     }
 
@@ -1224,6 +1236,11 @@ ul li ul.dropdown li{
             padding: 9px;
             padding-left: 9px;
             background-color: #e60023;
+
+            &:hover{
+                opacity: 0.7;
+                
+            }
     }
     }
 
@@ -1244,6 +1261,11 @@ ul li ul.dropdown li{
             padding: 9px;
             padding-left: 11px;
             background-color: #0077b5;
+
+            &:hover{
+                opacity: 0.7;
+                
+            }
     }
     }
 
@@ -1264,6 +1286,11 @@ ul li ul.dropdown li{
             padding: 9px;
             padding-left: 9px;
             background-color: #ff4500;
+
+            &:hover{
+                opacity: 0.7;
+                
+            }
     }
     
     }
@@ -1285,6 +1312,11 @@ ul li ul.dropdown li{
             padding: 9px;
             padding-left: 11px;
             background-color: #25d366;
+
+            &:hover{
+                opacity: 0.7;
+                
+            }
     }
     }
 
@@ -1564,12 +1596,13 @@ ul li ul.dropdown li{
 
 .related{
     h4{
-        font-size: 1.25rem;;
+        font-size: 1.25rem;
     }
 }
 
 .card{
     align-items: center;
+    
 
     .cars{
         h3{
@@ -1607,9 +1640,7 @@ ul li ul.dropdown li{
     }
 
     .recom{
-        position: relative;
-        top: 50px;
-        right: 30px;
+        
     h3{
         position: absolute;
         background-color: gray;
@@ -1701,6 +1732,7 @@ ul li ul.dropdown li{
 
 
 .crds:hover{
+    position: absolute;
     z-index: 1;
     width: 340px;
     transition: all 0.3s;
@@ -1722,3 +1754,88 @@ ul li ul.dropdown li{
         font-size: 1.25rem;;
     }
 }
+
+
+  .mySlides {
+    display: none;
+
+    .percent{
+        padding-top: 0px;
+        margin-left: 0px;
+        
+        h3{
+            position: absolute;
+            background-color: #2bbef9;
+            width: 50px;
+            height: 25px;
+            border-radius: 5px;
+            font-size: 12px;
+            float: left;
+            color: white;
+            padding-top: 5px;
+            padding-left: 15px;
+            }
+        }
+
+        .recommended{
+            position: relative;
+            top: 30px;
+            right: 0px;
+    
+        h3{
+            position: absolute;
+            background-color: gray;
+            width: 88px;
+            height: 22px;
+            border-radius: 5px;
+            font-size: 9px;
+            float: left;
+            color: white;
+            padding-top: 6px;
+            padding-left: 10px;
+        }
+        }   
+  }
+  
+
+  .cursor {
+    cursor: pointer;
+  }
+   
+  
+  .rows{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+     
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    
+  }
+  
+ 
+  .column {
+    width: 16.66%;
+    height: 67px;
+    margin-left: 10px;
+    padding: 0; 
+        
+   
+  }
+  
+  
+  .demo {
+    border: 1px solid #e2e4ec;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  .active,
+  .demo:hover {
+    border: 1px solid #233a95;
+  }

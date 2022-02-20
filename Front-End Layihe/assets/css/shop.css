@@ -1351,6 +1351,10 @@ ul li ul.dropdown li {
   transition: all 1.3s;
 }
 
+.crd {
+  height: 384px;
+}
+
 .crd:hover {
   cursor: pointer;
   position: absolute;
@@ -1360,6 +1364,7 @@ ul li ul.dropdown li {
   transition: all 0.3s;
   -webkit-box-shadow: 0px 1px 1px 2px #233a95;
           box-shadow: 0px 1px 1px 2px #233a95;
+  height: 440px;
 }
 
 .pad {
